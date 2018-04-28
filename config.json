@@ -1,0 +1,17 @@
+{
+  "config": {
+    "secure-http": false,
+    "prestissimo": {
+        "maxConnections": 6,
+        "minConnections": 3,
+        "verbose": false,
+        "insecure": false
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
